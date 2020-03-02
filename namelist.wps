@@ -1,0 +1,38 @@
+&share
+ wrf_core = 'ARW',
+ max_dom = 1,
+ start_date = '2016-12-01_12:00:00',
+ end_date   = '2016-12-10_12:00:00',
+ interval_seconds = 21600,
+ io_form_geogrid = 2,
+ debug_level = 0,
+/
+
+&geogrid
+ parent_id         =     1,
+ parent_grid_ratio =     5,
+ i_parent_start    =     37,
+ j_parent_start    =     57,
+ e_we              =   301,
+ e_sn              =   381,
+ geog_data_res     = '50meter+30s',
+  
+ dx = 15000,
+ dy = 15000,
+ map_proj  = 'polar',
+ ref_lat   =  62.6032,
+ ref_lon   =  19.7398,
+ truelat1  =  62.6032,
+ stand_lon =  19.7398,
+ geog_data_path = '/data/ricardo/WPS_DATA/V4/WPS_GEOG'
+/
+
+&ungrib
+ out_format = 'WPS',
+ prefix = 'FILE',
+/
+
+&metgrid
+ fg_name = 'FILE'
+ io_form_metgrid = 2,
+/

@@ -1,0 +1,14 @@
+WRF stations:
+X:There is data for that variable in that station
+O:There is no data for that varialble in that station
+
+AirTemp-Pressure-RelHum-WindSensor&WindDirection
+Umeå Airport - 140480 X-X-X-X
+Västmarkum A - 138070 (not very good) X-X-X-X
+Härnösand - 127380 X-X-O-O
+Sundsvalls Flygplats - 127310 X-X-X-X
+Hudiksvall - 117440 X-O-O-O
+Gävle A- 107420 X-O-X-X
+Film A - 107140 X-X-X-X
+Uppsala Airport - 97530 X-X-X-X
+Stockholm Arlanda- 97400 X-X-X-X

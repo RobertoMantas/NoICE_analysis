@@ -1,3 +1,7 @@
+#Added manually by Roberto Mantas-Nakhai
+WRF-4.1/
+WPS-4.1/
+wrfout_d02_2016-12-03_00-40-00
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
