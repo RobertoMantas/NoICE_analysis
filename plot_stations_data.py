@@ -160,7 +160,7 @@ def WRF_extract_list(in_dir, out_dir):
                     output_file.write("# MASS OF ACCRETED ICE ON IDEALISED CYLINDER PER UNIT LENGTH USING JONES MODEL FOR FREEZING RAIN, kg·m-1"+ '\n')
                     output_file.write("#RADIAL ICE THICKNESS ON IDEALISED CYLINDER USING JONES MODEL FOR FREEZING RAIN m"+ '\n')
 
-WRF_extract_list("/Volumes/Samsung_T5/WRF/WRF_Code_updated/", os.path.dirname(__file__)+"/Output_WRF_list")
+# WRF_extract_list("/Volumes/Samsung_T5/WRF/WRF_Code_updated/", os.path.dirname(__file__)+"/Output_WRF_list")
 
 def interp_weights(xyz, uvw):
     d = 2
